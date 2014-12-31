@@ -1,3 +1,7 @@
+#Deprecation warning
+
+This repository is no longer being maintained. Feel free to fork it and amend to the commands for the latest version of [Yeoman](http://yeoman.io/) and [Oh-My-ZSH](https://github.com/robbyrussell/oh-my-zsh) 
+
 #Yeoman plugin for Oh My ZSH
 
 This is a [Yeoman](http://yeoman.io/) plugin for [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh) with command line aliases and zsh autocomplete functions.
