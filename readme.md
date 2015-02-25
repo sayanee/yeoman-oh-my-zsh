@@ -25,7 +25,18 @@ This is a [Yeoman](http://yeoman.io/) plugin for [Oh My ZSH](https://github.com/
     plugins=(git nanoc yeoman)
     ...
     ```
-4. Restart your command line application
+
+4. For changes to take effect, reload your shell environnement by running :
+
+    ```
+    . ~/.zshrc
+    ```
+
+5. New version use the `yo` command (see [Command conversions](https://github.com/yeoman/yeoman/wiki/Migrate-from-0.9.6-to-1.0#command-conversions)), a solution to keep compatibility is to create a simlink :
+
+    ```
+    ln -s $(which yo) /usr/local/bin/yeoman # sudo maybe needed
+    ```
 
 ##Features
 
